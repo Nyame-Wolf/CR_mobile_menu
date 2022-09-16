@@ -7,8 +7,8 @@ openToggle.addEventListener('click', () => {
   openToggle.style.display = 'none';
   title.style.display = 'none';
 });
-// mobileLinks.addEventListener('click', () => {
-//   openToggle.style.display = 'block';
-//   title.style.display = 'block';
-//   mobileLinks.classList.toggle('open');
-// });
+mobileLinks.addEventListener('click', () => {
+  openToggle.style.display = 'block';
+  title.style.display = 'block';
+  mobileLinks.classList.toggle('open');
+});

@@ -228,6 +228,18 @@ main {
   right: 0;
 }
 
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
 .card-stacks li {
   background: rgba(255, 255, 255, 0.24) !important;
   backdrop-filter: blur(2px);
@@ -556,7 +568,6 @@ textarea {
 }
 
 .mobile-links.open {
-  padding-top: 2.5em;
   width: 100%;
   position: fixed;
   left: 0;
