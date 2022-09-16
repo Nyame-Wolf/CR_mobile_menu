@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -559,4 +560,70 @@ textarea {
     width: 3vw;
     height: 32px;
   }
+}
+
+/* hamburger activation */
+.mobile-links {
+  display: none;
+}
+
+.mobile-links.open {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 90vh;
+  background: #3c3a39;
+}
+
+.close-toggle {
+  align-self: flex-end;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.ul {
+  width: 100%;
+}
+
+.mb-ul {
+  width: 100%;
+  padding: 0 0 0 1em;
+}
+
+.nav-item {
+  width: 90%;
+  border-bottom: solid 1px #6f6c6b;
+  padding: 1em;
+}
+
+.mb-link {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  width: 90%;
+  padding-bottom: 0.1em;
+}
+
+.mblink-img {
+  align-self: center;
+  margin-top: 4em;
+  background: #0d151e;
+  border-radius: 5px;
 }
